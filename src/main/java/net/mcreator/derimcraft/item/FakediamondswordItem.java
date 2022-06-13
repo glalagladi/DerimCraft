@@ -3,20 +3,20 @@ package net.mcreator.derimcraft.item;
 
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.Item;
 
 import net.mcreator.derimcraft.init.DerimcraftModTabs;
 
-public class FakeDiamondPickaxeItem extends SwordItem {
-	public FakeDiamondPickaxeItem() {
+public class FakediamondswordItem extends PickaxeItem {
+	public FakediamondswordItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 4;
+				return 3;
 			}
 
 			public float getSpeed() {
-				return 4f;
+				return 12f;
 			}
 
 			public float getAttackDamageBonus() {
@@ -34,6 +34,6 @@ public class FakeDiamondPickaxeItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -3.5f, new Item.Properties().tab(DerimcraftModTabs.TAB_DERIM_CRAFTCREATIVETAB));
+		}, 1, -3.5f, new Item.Properties().tab(DerimcraftModTabs.TAB_DERIM_CRAFTCREATIVETAB));
 	}
 }
