@@ -1,0 +1,27 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "diamondaxe",
+    "customModelName": "Normal",
+    "name": "Diamond Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:DerimCraftcreativetab"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 1,
+    "efficiency": 6.0,
+    "attackSpeed": 0.5,
+    "enchantability": 2,
+    "damageVsEntity": 1.0,
+    "usageCount": 3,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -61,6 +61,24 @@
       "locked_code": false,
       "registry_name": "fakediamondrecipepickaxe",
       "path": "~/fakeDiamond"
+    },
+    {
+      "name": "FakediamondAxe",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fakediamond_axe",
+      "path": "~/fakeDiamond"
+    },
+    {
+      "name": "Fakediamondaxerecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fakediamondaxerecipe",
+      "path": "~/fakeDiamond"
     }
   ],
   "variable_elements": [],
@@ -70,6 +88,7 @@
       "item.derimcraft.fake_diamond_pickaxe": "Diamond Sword",
       "item.derimcraft.fakediamondsword": "Diamond Pickaxe",
       "itemGroup.tabderim_craftcreativetab": "Derim Craftcreativetab",
+      "item.derimcraft.fakediamond_axe": "Diamond Axe",
       "item.derimcraft.fake_diamond": "Diamond"
     }
   },
