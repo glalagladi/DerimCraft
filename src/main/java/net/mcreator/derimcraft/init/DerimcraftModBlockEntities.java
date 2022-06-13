@@ -11,7 +11,6 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.Block;
 
-import net.mcreator.derimcraft.block.entity.DeepDrillBlockEntity;
 import net.mcreator.derimcraft.DerimcraftMod;
 
 public class DerimcraftModBlockEntities {
