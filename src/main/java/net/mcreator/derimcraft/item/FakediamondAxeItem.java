@@ -1,7 +1,12 @@
 
 package net.mcreator.derimcraft.item;
 
-import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.AxeItem;
+
+import net.mcreator.derimcraft.init.DerimcraftModTabs;
 
 public class FakediamondAxeItem extends AxeItem {
 	public FakediamondAxeItem() {
@@ -29,11 +34,6 @@ public class FakediamondAxeItem extends AxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.EMPTY;
 			}
-		},
-
-				1, -3.5f,
-
-				new Item.Properties().tab(DerimcraftModTabs.TAB_DERIM_CRAFTCREATIVETAB));
+		}, 1, -3.5f, new Item.Properties().tab(DerimcraftModTabs.TAB_DERIM_CRAFTCREATIVETAB));
 	}
-
 }
