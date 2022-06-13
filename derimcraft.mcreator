@@ -34,6 +34,15 @@
       "locked_code": false,
       "registry_name": "fake_diamond_pickaxe",
       "path": "~/fakeDiamond"
+    },
+    {
+      "name": "FakediamondRecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fakediamond_recipe",
+      "path": "~/fakeDiamond"
     }
   ],
   "variable_elements": [],
