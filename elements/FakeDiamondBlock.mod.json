@@ -13,7 +13,7 @@
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "32px-block_of_diamond_texture_update_pre-release_2-3334047088",
+    "itemTexture": "blockdiamond",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
