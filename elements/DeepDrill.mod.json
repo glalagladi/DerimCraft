@@ -41,7 +41,7 @@
     "creativeTab": {
       "value": "CUSTOM:DerimCraftcreativetab"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
     },
@@ -54,7 +54,7 @@
     "material": {
       "value": "IRON"
     },
-    "tickRate": 1,
+    "tickRate": 10,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -99,24 +99,20 @@
     "breakHarvestLevel": 1,
     "spawnParticles": true,
     "particleToSpawn": {
-      "value": "CAMPFIRE_SIGNAL_SMOKE"
+      "value": "SMOKE_NORMAL"
     },
-    "particleSpawningShape": "Top",
-    "particleSpawningRadious": 0.30000000000000004,
-    "particleAmount": 3,
-    "hasInventory": true,
-    "guiBoundTo": "DeepDrillGUI",
-    "openGUIOnRightClick": true,
-    "inventorySize": 2,
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 4,
+    "hasInventory": false,
+    "guiBoundTo": "<NONE>",
+    "openGUIOnRightClick": false,
+    "inventorySize": 9,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
-    "inventoryOutSlotIDs": [
-      2
-    ],
-    "inventoryInSlotIDs": [
-      1
-    ],
+    "inventoryOutSlotIDs": [],
+    "inventoryInSlotIDs": [],
     "hasEnergyStorage": false,
     "energyInitial": 0,
     "energyCapacity": 400000,
