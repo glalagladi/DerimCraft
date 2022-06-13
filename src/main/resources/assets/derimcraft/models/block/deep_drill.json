@@ -1,0 +1,12 @@
+{
+  "parent": "derimcraft:custom/deepdrill",
+  "textures": {
+    "all": "derimcraft:blocks/iron_block",
+    "particle": "derimcraft:blocks/iron_block",
+    "0": "derimcraft:blocks/smooth_stone",
+    "1": "derimcraft:blocks/smooth_stone_slab_side",
+    "2": "derimcraft:blocks/iron_block",
+    "3": "derimcraft:blocks/stripped_oak_log",
+    "4": "derimcraft:blocks/debug"
+  }
+}

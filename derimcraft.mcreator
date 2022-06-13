@@ -61,6 +61,14 @@
       "locked_code": false,
       "registry_name": "fakediamondrecipepickaxe",
       "path": "~/fakeDiamond"
+    },
+    {
+      "name": "DeepDrill",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_drill"
     }
   ],
   "variable_elements": [],
@@ -68,6 +76,7 @@
   "language_map": {
     "en_us": {
       "item.derimcraft.fake_diamond_pickaxe": "Diamond Sword",
+      "block.derimcraft.deep_drill": "Deep Drill",
       "item.derimcraft.fakediamondsword": "Diamond Pickaxe",
       "itemGroup.tabderim_craftcreativetab": "Derim Craftcreativetab",
       "item.derimcraft.fake_diamond": "Diamond"
