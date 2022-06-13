@@ -14,6 +14,7 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.derimcraft.item.FakediamondswordItem;
+import net.mcreator.derimcraft.item.FakediamondAxeItem;
 import net.mcreator.derimcraft.item.FakeDiamondPickaxeItem;
 import net.mcreator.derimcraft.item.FakeDiamondItem;
 import net.mcreator.derimcraft.DerimcraftMod;
@@ -24,6 +25,7 @@ public class DerimcraftModItems {
 	public static final RegistryObject<Item> FAKE_DIAMOND_PICKAXE = REGISTRY.register("fake_diamond_pickaxe", () -> new FakeDiamondPickaxeItem());
 	public static final RegistryObject<Item> FAKEDIAMONDSWORD = REGISTRY.register("fakediamondsword", () -> new FakediamondswordItem());
 	public static final RegistryObject<Item> DEEP_DRILL = block(DerimcraftModBlocks.DEEP_DRILL, DerimcraftModTabs.TAB_DERIM_CRAFTCREATIVETAB);
+	public static final RegistryObject<Item> FAKEDIAMOND_AXE = REGISTRY.register("fakediamond_axe", () -> new FakediamondAxeItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
