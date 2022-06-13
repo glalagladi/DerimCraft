@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "derimcraft:deleted_mod_element"
+    }
+  ],
+  "result": {
+    "item": "derimcraft:fake_diamond",
+    "count": 9
+  }
+}

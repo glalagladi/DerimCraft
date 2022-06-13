@@ -1,25 +1,9 @@
 
 package net.mcreator.derimcraft.network;
 
-import net.minecraftforge.network.NetworkEvent;
-import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-
-import net.minecraft.world.level.Level;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.network.FriendlyByteBuf;
-import net.minecraft.core.BlockPos;
-
-import net.mcreator.derimcraft.world.inventory.DeepDrillGUIMenu;
-import net.mcreator.derimcraft.procedures.DeepDrillProcedureProcedure;
-import net.mcreator.derimcraft.DerimcraftMod;
-
-import java.util.function.Supplier;
-import java.util.HashMap;
-
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class DeepDrillGUISlotMessage {
+
 	private final int slotID, x, y, z, changeType, meta;
 
 	public DeepDrillGUISlotMessage(int slotID, int x, int y, int z, int changeType, int meta) {
@@ -59,6 +43,7 @@ public class DeepDrillGUISlotMessage {
 			int x = message.x;
 			int y = message.y;
 			int z = message.z;
+
 			handleSlotAction(entity, slotID, changeType, meta, x, y, z);
 		});
 		context.setPacketHandled(true);
@@ -67,9 +52,11 @@ public class DeepDrillGUISlotMessage {
 	public static void handleSlotAction(Player entity, int slotID, int changeType, int meta, int x, int y, int z) {
 		Level world = entity.level;
 		HashMap guistate = DeepDrillGUIMenu.guistate;
+
 		// security measure to prevent arbitrary chunk generation
 		if (!world.hasChunkAt(new BlockPos(x, y, z)))
 			return;
+
 		if (slotID == 0 && changeType == 0) {
 
 			DeepDrillProcedureProcedure.execute(entity);
@@ -81,4 +68,5 @@ public class DeepDrillGUISlotMessage {
 		DerimcraftMod.addNetworkMessage(DeepDrillGUISlotMessage.class, DeepDrillGUISlotMessage::buffer, DeepDrillGUISlotMessage::new,
 				DeepDrillGUISlotMessage::handler);
 	}
+
 }

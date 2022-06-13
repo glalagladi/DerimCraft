@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "derimcraft:items/diamond_pickaxe1"
+    "layer0": "derimcraft:items/diamond_pickaxe"
   }
 }

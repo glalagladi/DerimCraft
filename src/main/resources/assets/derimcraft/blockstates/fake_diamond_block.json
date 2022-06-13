@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "derimcraft:block/fake_diamond_block"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "derimcraft:fake_diamond"
+    },
+    "1": {
+      "item": "derimcraft:fake_diamond"
+    },
+    "2": {
+      "item": "derimcraft:fake_diamond"
+    },
+    "3": {
+      "item": "derimcraft:fake_diamond"
+    },
+    "4": {
+      "item": "derimcraft:fake_diamond"
+    },
+    "5": {
+      "item": "derimcraft:fake_diamond"
+    },
+    "6": {
+      "item": "derimcraft:fake_diamond"
+    },
+    "7": {
+      "item": "derimcraft:fake_diamond"
+    },
+    "8": {
+      "item": "derimcraft:fake_diamond"
+    }
+  },
+  "result": {
+    "item": "derimcraft:deleted_mod_element",
+    "count": 1
+  }
+}

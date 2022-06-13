@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "diamond_pickaxe1",
+    "texture": "diamond_pickaxe",
     "customModelName": "Normal",
     "name": "Diamond Pickaxe",
     "specialInfo": [],

@@ -14,12 +14,14 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.derimcraft.block.FakeDiamondBlockBlock;
 import net.mcreator.derimcraft.block.DeepDrillBlock;
 import net.mcreator.derimcraft.DerimcraftMod;
 
 public class DerimcraftModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, DerimcraftMod.MODID);
 	public static final RegistryObject<Block> DEEP_DRILL = REGISTRY.register("deep_drill", () -> new DeepDrillBlock());
+	public static final RegistryObject<Block> FAKE_DIAMOND_BLOCK = REGISTRY.register("fake_diamond_block", () -> new FakeDiamondBlockBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

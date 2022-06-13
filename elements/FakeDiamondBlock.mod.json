@@ -2,22 +2,22 @@
   "_fv": 28,
   "_type": "block",
   "definition": {
-    "texture": "iron_block",
-    "textureTop": "",
-    "textureLeft": "",
-    "textureFront": "",
-    "textureRight": "",
-    "textureBack": "",
-    "renderType": 2,
-    "customModelName": "deepdrill:default",
-    "rotationMode": 1,
+    "texture": "diamond_block",
+    "textureTop": "diamond_block",
+    "textureLeft": "diamond_block",
+    "textureFront": "diamond_block",
+    "textureRight": "diamond_block",
+    "textureBack": "diamond_block",
+    "renderType": 10,
+    "customModelName": "Normal",
+    "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "deepdrillimage",
+    "itemTexture": "blockdiamond",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": true,
+    "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "SOLID",
     "disableOffset": false,
@@ -32,16 +32,16 @@
         "subtract": false
       }
     ],
-    "name": "Deep Drill",
+    "name": "Diamond Block",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
-    "hasGravity": false,
+    "hasGravity": true,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:DerimCraftcreativetab"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
     },
@@ -50,9 +50,9 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
-    "lightOpacity": 0,
+    "lightOpacity": 15,
     "material": {
-      "value": "IRON"
+      "value": "EARTH"
     },
     "tickRate": 1,
     "tickRandomly": false,
@@ -77,7 +77,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "METAL"
+      "value": "GROUND"
     },
     "breakSound": {
       "value": ""
@@ -97,26 +97,22 @@
     "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": 1,
-    "spawnParticles": true,
+    "spawnParticles": false,
     "particleToSpawn": {
-      "value": "CAMPFIRE_SIGNAL_SMOKE"
+      "value": "EXPLOSION_NORMAL"
     },
-    "particleSpawningShape": "Top",
-    "particleSpawningRadious": 0.30000000000000004,
-    "particleAmount": 3,
-    "hasInventory": true,
-    "guiBoundTo": "DeepDrillGUI",
-    "openGUIOnRightClick": true,
-    "inventorySize": 2,
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 4,
+    "hasInventory": false,
+    "guiBoundTo": "<NONE>",
+    "openGUIOnRightClick": false,
+    "inventorySize": 9,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
-    "inventoryOutSlotIDs": [
-      2
-    ],
-    "inventoryInSlotIDs": [
-      1
-    ],
+    "inventoryOutSlotIDs": [],
+    "inventoryInSlotIDs": [],
     "hasEnergyStorage": false,
     "energyInitial": 0,
     "energyCapacity": 400000,
@@ -133,7 +129,7 @@
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 10,
+    "frequencyPerChunks": 5,
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 64

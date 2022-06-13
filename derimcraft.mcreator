@@ -89,15 +89,6 @@
       "path": "~/fakeDiamond"
     },
     {
-      "name": "DeepDrillGUI",
-      "type": "gui",
-      "sortid": 8,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "deep_drill_gui",
-      "path": "~/DeepDrill"
-    },
-    {
       "name": "DeepDrillProcedure",
       "type": "procedure",
       "sortid": 9,
@@ -113,6 +104,42 @@
         ]
       },
       "path": "~/DeepDrill"
+    },
+    {
+      "name": "DeepDrillGUI",
+      "type": "gui",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_drill_gui",
+      "path": "~/DeepDrill"
+    },
+    {
+      "name": "FakeDiamondBlockRecipe1",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fake_diamond_block_recipe_1",
+      "path": "~/fakeDiamond"
+    },
+    {
+      "name": "FakeDiamondBlockRecipe2",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fake_diamond_block_recipe_2",
+      "path": "~/fakeDiamond"
+    },
+    {
+      "name": "FakeDiamondBlock",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fake_diamond_block",
+      "path": "~/fakeDiamond"
     }
   ],
   "variable_elements": [],
@@ -121,6 +148,7 @@
     "en_us": {
       "item.derimcraft.fake_diamond_pickaxe": "Diamond Sword",
       "block.derimcraft.deep_drill": "Deep Drill",
+      "block.derimcraft.fake_diamond_block": "Diamond Block",
       "item.derimcraft.fakediamondsword": "Diamond Pickaxe",
       "itemGroup.tabderim_craftcreativetab": "Derim Craftcreativetab",
       "item.derimcraft.fakediamond_axe": "Diamond Axe",
