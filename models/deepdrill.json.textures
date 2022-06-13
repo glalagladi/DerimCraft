@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "smooth_stone",
+        "1": "smooth_stone_slab_side",
+        "2": "iron_block",
+        "3": "stripped_oak_log",
+        "4": "debug"
+      },
+      "name": "default"
+    }
+  }
+}
