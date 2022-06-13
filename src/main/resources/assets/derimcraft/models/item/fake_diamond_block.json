@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "derimcraft:items/32px-block_of_diamond_texture_update_pre-release_2-3334047088"
+  }
+}

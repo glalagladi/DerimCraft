@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "derimcraft:fake_diamond_block"
+    }
+  ],
+  "result": {
+    "item": "derimcraft:fake_diamond",
+    "count": 9
+  }
+}

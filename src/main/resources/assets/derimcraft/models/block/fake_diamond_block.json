@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "derimcraft:blocks/diamond_block",
+    "up": "derimcraft:blocks/diamond_block",
+    "north": "derimcraft:blocks/diamond_block",
+    "east": "derimcraft:blocks/diamond_block",
+    "south": "derimcraft:blocks/diamond_block",
+    "west": "derimcraft:blocks/diamond_block",
+    "particle": "derimcraft:blocks/diamond_block"
+  }
+}
