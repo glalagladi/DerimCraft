@@ -140,6 +140,36 @@
       "locked_code": false,
       "registry_name": "fake_diamond_block",
       "path": "~/fakeDiamond"
+    },
+    {
+      "name": "SayAs",
+      "type": "command",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "say_as",
+      "path": "~/Commands"
+    },
+    {
+      "name": "SayAscoomand",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "say_ascoomand",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "cmdparams",
+            "type": "map"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Commands"
     }
   ],
   "variable_elements": [],
@@ -164,6 +194,10 @@
       },
       {
         "name": "DeepDrill",
+        "children": []
+      },
+      {
+        "name": "Commands",
         "children": []
       }
     ]

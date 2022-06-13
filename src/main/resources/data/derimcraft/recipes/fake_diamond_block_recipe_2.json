@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "derimcraft:deleted_mod_element"
+      "item": "derimcraft:fake_diamond_block"
     }
   ],
   "result": {

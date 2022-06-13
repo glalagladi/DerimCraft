@@ -1,8 +1,13 @@
 package net.mcreator.derimcraft.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.inventory.Slot;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.server.level.ServerPlayer;
 
-import javax.annotation.Nullable;
+import java.util.function.Supplier;
+import java.util.Map;
 
 public class DeepDrillProcedureProcedure {
 	public static void execute(Entity entity) {
