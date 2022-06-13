@@ -13,7 +13,7 @@
     "rotationMode": 1,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "",
+    "itemTexture": "deepdrillimage",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
