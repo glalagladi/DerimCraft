@@ -87,6 +87,32 @@
       "locked_code": false,
       "registry_name": "fakediamond_axe",
       "path": "~/fakeDiamond"
+    },
+    {
+      "name": "DeepDrillGUI",
+      "type": "gui",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_drill_gui",
+      "path": "~/DeepDrill"
+    },
+    {
+      "name": "DeepDrillProcedure",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_drill_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/DeepDrill"
     }
   ],
   "variable_elements": [],
@@ -106,6 +132,10 @@
     "children": [
       {
         "name": "fakeDiamond",
+        "children": []
+      },
+      {
+        "name": "DeepDrill",
         "children": []
       }
     ]
