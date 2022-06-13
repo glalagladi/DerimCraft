@@ -1,0 +1,11 @@
+{
+  "_fv": 28,
+  "_type": "tab",
+  "definition": {
+    "name": "Derim Craftcreativetab",
+    "icon": {
+      "value": "Blocks.FLOWING_WATER"
+    },
+    "showSearch": true
+  }
+}
