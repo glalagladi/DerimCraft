@@ -7,18 +7,52 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "derim_craftcreativetab"
+    },
+    {
+      "name": "FakeDiamond",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fake_diamond",
+      "path": "~/fakeDiamond"
+    },
+    {
+      "name": "Fakediamondsmithing",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fakediamondsmithing",
+      "path": "~/fakeDiamond"
+    },
+    {
+      "name": "FakeDiamondPickaxe",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fake_diamond_pickaxe",
+      "path": "~/fakeDiamond"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "itemGroup.tabderim_craftcreativetab": "Derim Craftcreativetab"
+      "item.derimcraft.fake_diamond_pickaxe": "diamond_sword",
+      "itemGroup.tabderim_craftcreativetab": "Derim Craftcreativetab",
+      "item.derimcraft.fake_diamond": "Diamond"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "fakeDiamond",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "derimcraft",

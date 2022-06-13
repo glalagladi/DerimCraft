@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "derimcraft:items/piq_80819-3331717921"
+  }
+}

@@ -1,3 +1,5 @@
 {
-  "itemGroup.tabderim_craftcreativetab": "Derim Craftcreativetab"
+  "item.derimcraft.fake_diamond_pickaxe": "diamond_sword",
+  "itemGroup.tabderim_craftcreativetab": "Derim Craftcreativetab",
+  "item.derimcraft.fake_diamond": "Diamond"
 }

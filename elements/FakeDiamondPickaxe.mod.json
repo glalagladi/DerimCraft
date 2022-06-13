@@ -1,0 +1,27 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "piq_80819-3331717921",
+    "customModelName": "Normal",
+    "name": "diamond_sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:DerimCraftcreativetab"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 0.2,
+    "enchantability": 2,
+    "damageVsEntity": 1.0,
+    "usageCount": 4,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -27,6 +27,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.derimcraft.init.DerimcraftModTabs;
+import net.mcreator.derimcraft.init.DerimcraftModItems;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -44,6 +45,8 @@ public class DerimcraftMod {
 	public DerimcraftMod() {
 		DerimcraftModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		DerimcraftModItems.REGISTRY.register(bus);
 
 	}
 

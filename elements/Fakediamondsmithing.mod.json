@@ -1,0 +1,23 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "Blocks.DIRT"
+    },
+    "smithingInputAdditionStack": {
+      "value": "Items.WOODEN_PICKAXE"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:FakeDiamond"
+    },
+    "name": "fakediamondsmithing",
+    "namespace": "mod"
+  }
+}
